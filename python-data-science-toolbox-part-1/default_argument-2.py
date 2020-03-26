@@ -9,7 +9,7 @@ def shout_echo(word1, echo = 1, intense = False):
     # Make echo_word uppercase if intense is True
     if intense is True:
         # Make uppercase and concatenate '!!!': echo_word_new
-        echo_word_new = str.upper(word1) + '!!!'
+        echo_word_new = str.upper(echo_word) + '!!!'
     else:
         # Concatenate '!!!' to echo_word: echo_word_new
         echo_word_new = echo_word + '!!!'
@@ -21,7 +21,7 @@ def shout_echo(word1, echo = 1, intense = False):
 with_big_echo = shout_echo("Hey", 5, True)
 
 # Call shout_echo() with "Hey" and intense=True: big_no_echo
-big_no_echo = shout_echo("Hey", True)
+big_no_echo = shout_echo("Hey", intense =  True)
 
 # Print values
 print(with_big_echo)
