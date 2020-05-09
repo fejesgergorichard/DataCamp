@@ -1,5 +1,5 @@
 # A random unlabeled data point has been generated and is available as 'X_new' (pandas.core.frame.DataFrame)
-####################################################################
+#######################################################################
 
 # Import KNeighborsClassifier from sklearn.neighbors
 from sklearn.neighbors import KNeighborsClassifier 
